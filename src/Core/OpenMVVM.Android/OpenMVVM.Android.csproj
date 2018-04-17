@@ -62,11 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenMVVM.Core\OpenMVVM.Core.csproj">
-      <Project>{be321862-d593-44c6-b9e6-c57d1b384e17}</Project>
+      <Project>{0a385998-14f0-4489-8e00-e356036199e4}</Project>
       <Name>OpenMVVM.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

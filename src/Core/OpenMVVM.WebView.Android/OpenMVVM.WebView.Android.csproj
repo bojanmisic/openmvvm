@@ -64,11 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenMVVM.Core\OpenMVVM.Core.csproj">
-      <Project>{be321862-d593-44c6-b9e6-c57d1b384e17}</Project>
+      <Project>{0a385998-14f0-4489-8e00-e356036199e4}</Project>
       <Name>OpenMVVM.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenMVVM.WebView\OpenMVVM.WebView.csproj">
-      <Project>{6d4c7a1f-8e48-4965-a70f-d67561cabadf}</Project>
+      <Project>{175629a4-f877-4e3d-ad35-c952d540ece2}</Project>
       <Name>OpenMVVM.WebView</Name>
     </ProjectReference>
   </ItemGroup>

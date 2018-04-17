@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Portable.Ninject" Version="3.3.1" />
   </ItemGroup>
 
 </Project>
