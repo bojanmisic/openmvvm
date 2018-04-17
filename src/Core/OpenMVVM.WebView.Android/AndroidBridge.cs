@@ -22,7 +22,9 @@
 
         public override void SendMessage(BridgeMessage message)
         {
-            this.webViewControl.LoadUrl("javascript:" + JsFunction + "('" + JsContextName + "', '" + JsonConvert.SerializeObject(message).Replace("'", "\\'") + "');");
+            var msg = JsonConvert.SerializeObject(message).Replace("'", "\\'").Replace("\\", string.Empty);
+
+            this.webViewControl.LoadUrl("javascript:" + JsFunction + "('" + JsContextName + "', '" + msg + "');");
         }
 
         private void WebViewControlScriptNotify(string message)
